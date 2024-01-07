@@ -138,6 +138,6 @@ app.delete("/user/:id", (req, res) => {
     });
 });
 
-app.listen("https://vercel.com/guides/using-express-with-vercel", () => {
+app.listen(port, () => {
   console.log(`Listening on ${port}`);
 });
