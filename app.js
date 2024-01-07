@@ -44,6 +44,10 @@ const userSchema = new Schema(
 // Create User Model
 const UserModel = mongoose.model("users", userSchema);
 
+app.get("/", (req, res) => {
+  res.send("Express vercel api response");
+});
+
 app.post("/createuser", (req, res) => {
   let user = req.body;
   UserModel.create(user)
