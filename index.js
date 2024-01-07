@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 // db connection
 mongoose
   .connect(
-    `mongodb+srv://caiomelo:${process.env.DB_PASS}@caiocluster.infg9q7.mongodb.net/apidev`
+    `mongodb+srv://caiomelo:${process.env.DB_PASS}@mymongodb.7vbcm0k.mongodb.net/apidev`
   )
   .then(() => {
     console.log("DB Connected");
