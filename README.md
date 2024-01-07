@@ -19,3 +19,12 @@ Install dependencies: npm install
 Set up your MongoDB connection string in the app.js file:
 
 mongoose.connect("YOUR_MONGODB_CONNECTION_STRING");
+
+```
+##USAGE
+```
+Start the server:
+npm run start
+
+The API will be accessible at http://localhost:8080.
+```
