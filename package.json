@@ -1,0 +1,16 @@
+{
+  "name": "usersapi",
+  "version": "1.0.0",
+  "description": "Api to create users",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file .env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Melo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
