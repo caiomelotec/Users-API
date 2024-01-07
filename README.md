@@ -21,7 +21,7 @@ Set up your MongoDB connection string in the app.js file:
 mongoose.connect("YOUR_MONGODB_CONNECTION_STRING");
 
 ```
-##USAGE
+## Usage
 ```
 Start the server:
 npm run start
